@@ -2,12 +2,12 @@ body {
     margin:0;
 }
 header h2{
-    color:rgb(236, 92, 75);
+    color:black;
     margin-left:40px;
     margin-bottom:0;
 }
 header h1{
-    color:rgb(236, 92, 75);
+    color:black;
     margin-left:40px;
     font-weight: 500%;
     font-size:4em;
@@ -50,13 +50,25 @@ span {
 .font {
     font-size:30px;
 }
-.anchor-button {
+.anchor-button:link, .anchor-button:visited {
     color:white;
-    background-image:linear-gradient(to right, orange, rgba(255, 0, 0, 0.527));
+    background-image:linear-gradient(to left, orange, rgba(255, 0, 0, 0.527));
     padding:10px 30px;
     text-decoration: none;
     font-size:30px;
     border-radius:20px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.anchor-button:active, .anchor-button:hover {
+    color: blue;
+    background-image:linear-gradient(to left, orange, rgba(255, 0, 0,527));
+    padding:10px 30px;
+    text-decoration: none;
+    font-size:30px;
+    border-radius:20px;
+    font-weight: 700;
+    margin-right: 20px;
 }
 .bg-img {
     display:flex;
@@ -84,13 +96,15 @@ span {
 footer {
     background-color: rgb(20, 20, 20);
     height: 200px;
-    text-align: center;
+
 }
 footer p {
     color:white;
+    text-align:center;
 }
 footer h1 {
     font-size:40px;
+    text-align:center;
 }
 .social-media {
     width:60%;
