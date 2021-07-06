@@ -1,3 +1,6 @@
+body {
+    margin:0;
+}
 header h2{
     color:rgb(236, 92, 75);
     margin-left:40px;
@@ -11,11 +14,14 @@ header h1{
     margin-top:0;
     margin-bottom:0;
 }
+#bookmark {
+    text-align:center;
+}
 hr {
     height:5px;
     background-color:black;
 }
-.first-section {
+.sections {
     display:flex;
     margin-bottom:40px;
 }
@@ -43,13 +49,13 @@ span {
 }
 .anchor-button {
     color:white;
-    background-image:linear-gradient(to right, orange, red);
+    background-image:linear-gradient(to right, orange, rgba(255, 0, 0, 0.527));
     padding:10px 30px;
     text-decoration: none;
     font-size:30px;
     border-radius:20px;
 }
-.about {
+.bg-img {
     display:flex;
     background-image: url('images/shapes/7.png');
     background-repeat: no-repeat;
@@ -58,18 +64,18 @@ span {
 .align-center {
     text-align: center;
 }
-#recipe-title {
+.recipe-title {
     display:flex;
     margin:0 80px 150px 80px;
 }
-#recipe-title div {
+.recipe-title div {
     width:30%;
     box-shadow:0 0 10px 5px gray;
     padding:10px 10px 10px 10px;
     border-radius:10px;
     margin:30px;
 }
-#recipe-title img{
+.recipe-title img{
     height:280px;
 }
 footer {
@@ -83,3 +89,16 @@ footer p {
 footer h1 {
     font-size:40px;
 }
+.social-media {
+    width:60%;
+    box-shadow:0 0 10px 5px gray;
+    border-radius:10px;
+    margin:40px 250px;
+}
+#share-social-media {
+    display:flex;    
+}
+#share-social-media div{
+    padding:10px 70px 10px 70px;
+}
+
