@@ -29,6 +29,9 @@ hr {
 h1 {
     font-size:4em;
 }
+span {
+    color:rgb(228, 154, 16);
+}
 .color {
     color:rgb(77, 68, 68);
 }
@@ -36,10 +39,7 @@ h1 {
     color:gray;
 }
 .font {
-    font-size:25px;
-}
-h1 span {
-    color:orange;
+    font-size:30px;
 }
 .anchor-button {
     color:white;
@@ -54,4 +54,32 @@ h1 span {
     background-image: url('images/shapes/7.png');
     background-repeat: no-repeat;
     background-size:cover;
+}
+.align-center {
+    text-align: center;
+}
+#recipe-title {
+    display:flex;
+    margin:0 80px 150px 80px;
+}
+#recipe-title div {
+    width:30%;
+    box-shadow:0 0 10px 5px gray;
+    padding:10px 10px 10px 10px;
+    border-radius:10px;
+    margin:30px;
+}
+#recipe-title img{
+    height:280px;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    height: 200px;
+    text-align: center;
+}
+footer p {
+    color:white;
+}
+footer h1 {
+    font-size:40px;
 }
