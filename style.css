@@ -1,6 +1,5 @@
 body {
-    width:100%;
-    margin:0 0;
+    margin:0;
 }
 header h2{
     color:rgb(236, 92, 75);
@@ -72,7 +71,7 @@ span {
 .recipe-title div {
     width:30%;
     box-shadow:0 0 10px 5px gray;
-    padding:1% 1% 1% 1%;
+    padding:1% 0.5% 1% 1%;
     border-radius:10px;
     margin:30px;
 }
