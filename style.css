@@ -19,18 +19,19 @@ p {
 }
 hr {
     height:5px;
-    background-color:rgb(189, 14, 58);
+    background-color: black;
 }
 .sections {
     display:flex;
     margin-bottom:40px;
 }
 .half-width {
-    width:50%;
-    margin-left:50px;
+    width:40%;
+    margin-left:100px;
 }
 .half-width img {
     height:600px;
+    margin-left:100px;
 }
 h1 {
     font-size:4em;
@@ -49,7 +50,7 @@ span {
 }
 .anchor-button:link, .anchor-button:visited {
     color:white;
-    background-image:linear-gradient(to left, orange, rgba(255, 0, 0, 0.527));
+    background-image:linear-gradient(to left, rgb(253, 76, 47), rgb(252, 143, 73));;
     padding:10px 30px;
     text-decoration: none;
     font-size:30px;
@@ -59,7 +60,7 @@ span {
 }
 .anchor-button:active, .anchor-button:hover {
     color: blue;
-    background-image:linear-gradient(to left, orange, rgba(255, 0, 0,527));
+    background-image:linear-gradient(to left, rgb(253, 76, 47), rgb(252, 143, 73));
     padding:10px 30px;
     text-decoration: none;
     font-size:30px;
@@ -90,10 +91,21 @@ span {
 .recipe-title img{
     width:98%;
 }
+.social-media {
+    width:60%;
+    box-shadow:0 0 10px 5px gray;
+    border-radius:10px;
+    margin:100px 250px;
+}
+#share-social-media {
+    display:flex;    
+}
+#share-social-media div{
+    padding:10px 70px 10px 70px;
+}
 footer {
     background-color: rgb(20, 20, 20);
     height: 200px;
-
 }
 footer p {
     color:white;
@@ -103,16 +115,5 @@ footer h1 {
     font-size:40px;
     text-align:center;
 }
-.social-media {
-    width:60%;
-    box-shadow:0 0 10px 5px gray;
-    border-radius:10px;
-    margin:40px 250px;
-}
-#share-social-media {
-    display:flex;    
-}
-#share-social-media div{
-    padding:10px 70px 10px 70px;
-}
+
 
